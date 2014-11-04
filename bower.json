@@ -1,0 +1,29 @@
+{
+  "name": "stefantalen/basketball-scout-thesis",
+  "version": "0.0.1",
+  "homepage": "https://github.com/stefantalen/basketball-scout-thesis",
+  "description": "Prototype for gathering basketball statistics during a match",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "basketball",
+    "scouting",
+    "statistics",
+    "interaction"
+  ],
+  "authors": [
+    "Stefan Talen"
+  ],
+  "license": "Apache License 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
