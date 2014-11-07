@@ -1,0 +1,36 @@
+{
+  "name": "stefantalen-basketball-scout-thesis",
+  "version": "0.0.1",
+  "description": "Prototype for gathering basketball statistics during a match",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stefantalen@github.com/stefantalen/basketball-scout-thesis.git"
+  },
+  "keywords": [
+    "basketball",
+    "scouting",
+    "statistics",
+    "interaction"
+  ],
+  "private": true,
+  "author": "Stefan Talen <s.r.talen@gmail.com>",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/stefantalen/basketball-scout-thesis/issues"
+  },
+  "homepage": "https://github.com/stefantalen/basketball-scout-thesis",
+  "dependencies": {
+    "bower": "^1.3.12",
+    "gulp": "^3.8.9",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-concat": "^2.4.1",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-plumber": "^0.6.6",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-sass": "^1.1.0"
+  }
+}
