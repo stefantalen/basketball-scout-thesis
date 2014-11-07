@@ -1,5 +1,11 @@
 .court {
-    width: $courtLength;
-    height: $courtWidth;
-    background: blue;
+    width: $courtWidth;
+    height: $courtLength;
+    background: $courtColor;
+}
+
+.half-court {
+    width: $courtWidth / 2;
+    height: $courtLength / 2;
+    background: $courtColor;
 }
