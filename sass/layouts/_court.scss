@@ -1,11 +1,48 @@
-.court {
-    width: $courtWidth;
-    height: $courtLength;
-    background: $courtColor;
-}
-
 .half-court {
-    width: $courtWidth / 2;
+    width: $courtWidth - ($lineWidth / 2);
     height: $courtLength / 2;
     background: $courtColor;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    float: left;
+    border-width: $lineWidth ($lineWidth / 2) $lineWidth $lineWidth;
+    border-color: $lineColor;
+    border-style: solid;
+    
+    .center-circle {
+        background: $centerArcColor;
+        width: $centerArc;
+        height: $centerArc;
+        position: absolute;
+        top: ($courtLength / 4) - ($centerArc / 2);
+        border: $lineWidth $lineColor solid;
+        right: 0px - ($centerArc / 2) - ($lineWidth / 2);
+        border-radius: $centerArc;
+        z-index: 1;
+        
+    }
+    .three-point {
+        z-index: 1;
+        .paint {
+            width: $paintWidth;
+            height: $paintLength;
+            background: $paintColor;
+            top: ($courtLength / 4) - ($paintLength / 2);
+            position: absolute;
+            z-index: 2;
+        }
+    }
+    &.mirror {
+        border-width: $lineWidth $lineWidth $lineWidth ($lineWidth / 2);
+        .center-circle {
+            left: 0px - ($centerArc / 2) - ($lineWidth / 2);
+        }
+        .three-point {
+            .paint {
+                right: 0px;
+            }
+        }
+        
+    }
 }
