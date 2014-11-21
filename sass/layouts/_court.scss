@@ -1,3 +1,14 @@
+.circle {
+    width: $circleArc;
+    height: $circleArc;
+    position: absolute;
+    top: ($courtLength / 4) - ($circleArc / 2);
+    border: $lineWidth $lineColor solid;
+    border-radius: $circleArc;
+    z-index: 1;
+    
+}
+
 .half-court {
     width: $courtWidth - ($lineWidth / 2);
     height: $courtLength / 2;
@@ -11,17 +22,11 @@
     border-style: solid;
     
     .center-circle {
+        @extend .circle;
         background: $centerArcColor;
-        width: $centerArc;
-        height: $centerArc;
-        position: absolute;
-        top: ($courtLength / 4) - ($centerArc / 2);
-        border: $lineWidth $lineColor solid;
-        right: 0px - ($centerArc / 2) - ($lineWidth / 2);
-        border-radius: $centerArc;
-        z-index: 1;
-        
+        right: 0px - ($circleArc / 2) - ($lineWidth / 2);
     }
+    
     .three-point {
         z-index: 1;
         .paint {
@@ -31,16 +36,25 @@
             top: ($courtLength / 4) - ($paintLength / 2);
             position: absolute;
             z-index: 2;
+            border: $lineWidth $lineColor solid;
+        }
+        .free-throw {
+            @extend .circle;
+            left: $paintWidth - ($circleArc / 2);
         }
     }
     &.mirror {
         border-width: $lineWidth $lineWidth $lineWidth ($lineWidth / 2);
         .center-circle {
-            left: 0px - ($centerArc / 2) - ($lineWidth / 2);
+            left: 0px - ($circleArc / 2) - ($lineWidth / 2);
         }
         .three-point {
             .paint {
                 right: 0px;
+            }
+            .free-throw {
+                left: inherit;
+                right: $paintWidth - ($circleArc / 2);
             }
         }
         
