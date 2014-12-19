@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default interaction</title>
+    <link rel="stylesheet" href="../bower_components/foundation/css/normalize.css">
+    <link rel="stylesheet" href="../bower_components/foundation/css/foundation.css">
+    
+    <script src="../bower_components/foundation/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../compiled/style.min.css">
+    <style>
+        .court-background {
+            background: grey;
+            position: relative;
+        }
+        .marker {
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            transform: rotate(45deg);
+        }
+        .action-miss {
+            border-radius: 100% 0 0 0;
+            width: 64px;
+            height: 64px;
+            background: red;
+            margin-top: -50%;
+            margin-left: -50%;
+        }
+        .action-hit {
+            border-radius: 0 100% 0 0;
+            width: 64px;
+            height: 64px;
+            background: green;
+            margin-top: -100%;
+            margin-left: 50%;
+        }
+        .action-rebound {
+            border-radius: 0 0 100% 0;
+            width: 64px;
+            height: 64px;
+            background: yellow;
+            margin-left: 50%;
+        }
+        .position {
+            position: absolute;
+            margin-top: -50%;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: teal;
+        }
+     </style>
+</head>
+<body>
+    <div class="court-background">
+        
+        
+        <div class="marker">
+            <div class="action-miss"></div>
+            <div class="action-hit"></div>
+            <div class="position"></div>
+            <div class="action-rebound"></div>
+                
+        </div>
+    </div>
+    <script src="../bower_components/foundation/js/vendor/jquery.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>
