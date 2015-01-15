@@ -1,0 +1,47 @@
+.test-1-position {
+    .action-miss,
+    .action-hit,
+    .action-rebound {
+        visibility: hidden;
+    }
+}
+
+.marker {
+    display: none;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    transform: rotate(45deg);
+    
+    .action-miss {
+        border-radius: 100% 0 0 0;
+        width: 64px;
+        height: 64px;
+        background: red;
+        margin-top: -50%;
+        margin-left: -50%;
+    }
+    .action-hit {
+        border-radius: 0 100% 0 0;
+        width: 64px;
+        height: 64px;
+        background: green;
+        margin-top: -100%;
+        margin-left: 50%;
+    }
+    .action-rebound {
+        border-radius: 0 0 100% 0;
+        width: 64px;
+        height: 64px;
+        background: yellow;
+        margin-left: 50%;
+    }
+    .position {
+        position: absolute;
+        margin-top: -50%;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background: teal;
+    }
+}

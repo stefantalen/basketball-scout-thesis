@@ -1,0 +1,15 @@
+$courtImageWidth: 978;
+
+.court-background {
+    background: url('../assets/images/fiba-court.png') no-repeat;
+    position: relative;
+    width: $courtImageWidth * 1px;
+    height: 525px;
+    
+    &.left-side, &.right-side {
+        width: (($courtImageWidth / 2) + 1 ) * 1px;
+    }
+    &.right-side {
+        background-position-x: ($courtImageWidth / 2) * -1px;
+    }
+}
