@@ -13,7 +13,10 @@ mc.on("press", function(Event) {
         top: Event.center.y - 32,
         left: Event.center.x - 32
     });
+    addFeedback("Positie ingevoerd");
 });
+console.log($("body").hasClass( 'interaction' ));
+
 mc.on("swipeleft", function(Event) {
     console.log('miss');
 });
@@ -23,3 +26,7 @@ mc.on("swiperight", function(Event) {
 mc.on("swipedown", function(Event) {
     console.log('score');
 });
+
+function addFeedback(string) {
+    $(".feedback").append("<li>"+ string +"</li>");
+}

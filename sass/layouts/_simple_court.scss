@@ -1,15 +1,26 @@
 $courtImageWidth: 978;
+$courtImageHeight: 525;
 
 .court-background {
     background: url('../assets/images/fiba-court.png') no-repeat;
     position: relative;
     width: $courtImageWidth * 1px;
-    height: 525px;
-    
+    height: $courtImageHeight * 1px;
+    display:inline-block;
+    float:left;
     &.left-side, &.right-side {
         width: (($courtImageWidth / 2) + 1 ) * 1px;
     }
     &.right-side {
         background-position-x: ($courtImageWidth / 2) * -1px;
     }
+    &.top-down {
+        background: url('../assets/images/fiba-court-90.png') no-repeat;
+        width: $courtImageHeight * 1px;
+        height: (($courtImageWidth / 2) + 1 ) * 1px;
+    }
+}
+.feedback {
+    margin: 0px;
+    height: $courtImageHeight * 1px;
 }
