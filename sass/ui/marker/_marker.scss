@@ -11,13 +11,51 @@
     position: absolute;
     width: 64px;
     height: 64px;
-    transform: rotate(45deg);
+    transform: rotate(135deg);
+    & > div {
+        position: relative;
+    }
     
-    .action-miss {
+    &.missed {
+        .action-miss,
+        .action-hit,
+        .action-rebound {
+            visibility: hidden;
+        }
+        .position {
+            background: red;
+            border: 1px solid black;
+        }
+    }
+    &.hit {
+        .action-miss,
+        .action-hit,
+        .action-rebound {
+            visibility: hidden;
+        }
+        .position {
+            background: green;
+            border: 1px solid black;
+        }
+    }
+    
+    &.animated {
+        .action-miss {
+            left: 5%;
+            top: 5%;
+        }
+        .action-hit {
+            top: -5%;
+            left: 5%;
+        }
+    }
+    
+    .action-rebound {
+        visibility: hidden;
         border-radius: 100% 0 0 0;
         width: 64px;
         height: 64px;
-        background: red;
+        background: yellow;
         margin-top: -50%;
         margin-left: -50%;
     }
@@ -29,14 +67,15 @@
         margin-top: -100%;
         margin-left: 50%;
     }
-    .action-rebound {
+    .action-miss {
         border-radius: 0 0 100% 0;
         width: 64px;
         height: 64px;
-        background: yellow;
+        background: red;
         margin-left: 50%;
     }
     .position {
+        z-index: 10;
         position: absolute;
         margin-top: -50%;
         width: 64px;
