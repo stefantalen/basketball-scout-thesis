@@ -28,7 +28,7 @@ mc.on("press", function(Event) {
         
         $marker.show().css({
             top: Event.center.y - 32,
-            left: Event.center.x - 32
+            left: Event.center.x - 32 - 12
         });
         if ($(".court-background .marker.position").length == 0) {
             $(".court-background").append($marker);
