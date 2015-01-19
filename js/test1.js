@@ -63,11 +63,11 @@ function addFeedback(string) {
 }
 
 function handleMiss() {
-    addFeedback("Schot mis geregistreerd");
+    addFeedback("Schot mis");
     var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
 }
 
 function handleHit() {
-    addFeedback('Schot raak geregistreerd');
+    addFeedback('Schot raak');
     var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
 }
