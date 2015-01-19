@@ -12,20 +12,29 @@ pan.recognizeWith(swipe);
 mc.add([pan, swipe, press]);
 
 mc.on("press", function(Event) {
-    // If there is an position marker get it, otherwise create a new one
-    var $marker =
-        $(".court-background .marker.position").length == 1 ?
-        $(".court-background .marker.position") : 
-        $('<div class="marker position"><div class="action-rebound"></div><div class="action-hit"></div><div class="position"></div><div class="action-miss"></div></div>');
-    
-    $marker.show().css({
-        top: Event.center.y - 32,
-        left: Event.center.x - 32
-    });
-    if ($(".court-background .marker.position").length == 0) {
-        $(".court-background").append($marker);
+    // If the target is an marker element, proceed to handling that action
+    if (Event.target.className == 'action-miss') {
+        addFeedback('Press');
+        handleMiss();
+    } else if (Event.target.className == 'action-hit') {
+        addFeedback('Press');
+        handleHit();
+    } else {
+        // If there is an position marker get it, otherwise create a new one
+        var $marker =
+            $(".court-background .marker.position").length == 1 ?
+            $(".court-background .marker.position") : 
+            $('<div class="marker position"><div class="action-rebound"></div><div class="action-hit"></div><div class="position"></div><div class="action-miss"></div></div>');
+        
+        $marker.show().css({
+            top: Event.center.y - 32,
+            left: Event.center.x - 32
+        });
+        if ($(".court-background .marker.position").length == 0) {
+            $(".court-background").append($marker);
+        }
+        addFeedback("Positie ingevoerd");
     }
-    addFeedback("Positie ingevoerd");
 });
 
 if (!$("body").hasClass( 'test-1-position' )) {
@@ -35,8 +44,7 @@ if (!$("body").hasClass( 'test-1-position' )) {
     }, 250);
     
     mc.on("swipeleft", function(Event) {
-        addFeedback("Schot mis geregistreerd");
-        var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
+        handleMiss();
     });
     
     /*
@@ -46,11 +54,20 @@ if (!$("body").hasClass( 'test-1-position' )) {
     */
     
     mc.on("swipedown", function(Event) {
-        addFeedback('Schot raak geregistreerd');
-        var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
+        handleHit();
     });
 }
 
 function addFeedback(string) {
     $(".feedback").append("<li>"+ string +"</li>");
+}
+
+function handleMiss() {
+    addFeedback("Schot mis geregistreerd");
+    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
+}
+
+function handleHit() {
+    addFeedback('Schot raak geregistreerd');
+    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
 }
