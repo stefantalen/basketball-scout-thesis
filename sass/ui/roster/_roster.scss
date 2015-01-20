@@ -1,7 +1,23 @@
+@import "../../../bower_components/foundation/scss/foundation/components/buttons";
+
 .roster {
-    li {
+    &.home-team {
+        .button {
+            @include button(
+                null, // Padding
+                #e78957 // Background
+            );
+        }
+    }
+    &.away-team {
+        .button {
+            @include button(null, #57180f);
+        }
     }
     .button {
         margin: 0px;
+        &.disabled {
+            @include button-style(null, null, true, false);
+        }
     }
 }

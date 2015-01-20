@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="nl" > <![endif]-->
+<html class="no-js" lang="nl" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Gebruikerstest ronde 1: Speler selectie</title>
+    <link rel="stylesheet" href="../../../bower_components/foundation/css/normalize.css">
+    <link rel="stylesheet" href="../../../bower_components/foundation/css/foundation.css">
+    
+    <script src="../../../bower_components/foundation/js/vendor/modernizr.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="medium-10 medium-centered columns">
+            <h1>Gebruikerstest ronde 1: Speler selectie</h1>
+            <p>Tijdens deze test worden wederom <b>zes</b> spelsituaties op de laptop getoond. Ook nu zit er tussen elke situatie negen seconden pauze.</p>
+            <p>Het is weer de bedoeling om op het scherm de positie aan te geven vanaf waar de schotpoging(en) wordt genomen, <b>door welke speler</b> en of deze raak of mis is.</p>
+            <p>Zodra je de actie(s) hebt ingevoerd druk je op de knop "Naar situatie x" waarbij x een getal is.</p>
+            <p>Geef bij de instructeur aan wanneer je klaar bent met het lezen van deze instructie voordat je verder gaat.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="medium-10  medium-centered columns">
+            <ul class="button-group even-3">
+                <li><a href="direction-based/" class="button">Variant 1</a></li>
+                <li><a href="static-right/" class="button">Variant 2</a></li>
+                <li><a href="static-top/" class="button">Variant 3</a></li>
+            </ul>
+        </div>
+    </div>    
+    <script src="../../../bower_components/foundation/js/vendor/jquery.js"></script>
+    <script src="../../../bower_components/foundation/js/foundation.min.js"></script>
+    <script>
+        
+        $(document).foundation();
+        $(document).ready(function () {
+            $(document).bind('touchmove', false);
+        });
+    </script>
+</body>
+</html>
