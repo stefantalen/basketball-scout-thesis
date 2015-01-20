@@ -1,7 +1,26 @@
 // Disable page moving
 $(document).ready(function () {
     $(document).bind('touchmove', false);
+    
+    $(".roster .button").on("click", function() {
+        player = $(this).html();
+        if (isMiss) {
+            addFeedback("Speler "+ player +" mist");
+            isMiss = false;
+            player = null;
+        } else if (isHit) {
+            addFeedback("Speler "+ player +" raakt");
+            isHit = false;
+            player = null;
+        } else {
+            addFeedback("Speler "+ player +" geselecteerd");
+        }
+    });
 });
+var player = null,
+    isMiss = false,
+    isHit = false
+;
 
 var mc = new Hammer.Manager($('.court-background').get(0));
 var pan = new Hammer.Pan();
@@ -63,11 +82,23 @@ function addFeedback(string) {
 }
 
 function handleMiss() {
-    addFeedback("Schot mis");
+    if (player) {   
+        addFeedback("Speler "+ player +" mist");
+        player = null;
+    } else {
+        addFeedback("Score mis");
+        isMiss = true;
+    }
     var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
 }
 
 function handleHit() {
-    addFeedback('Schot raak');
+    if (player) {   
+        addFeedback("Speler "+ player +" raakt");
+        player = null;
+    } else {
+        addFeedback("Score raak");
+        isHit = true;
+    }
     var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
 }
