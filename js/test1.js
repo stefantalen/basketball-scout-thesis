@@ -2,7 +2,7 @@
 $(document).ready(function () {
     $(document).bind('touchmove', false);
     
-    $(".roster .button").on("click", function() {
+    $(".roster .button").not('.disabled').on("click", function() {
         player = $(this).html();
         if (isMiss) {
             addFeedback("Speler "+ player +" mist");
@@ -38,7 +38,11 @@ mc.on("press", function(Event) {
     } else if (Event.target.className == 'action-hit') {
         addFeedback('Press');
         handleHit();
-    } else {
+    } else if (
+        $("body").hasClass( 'test-1-interaction' ) ||
+        (isMiss == false &&
+        isHit == false)
+    ) {
         // If there is an position marker get it, otherwise create a new one
         var $marker =
             $(".court-background .marker.position").length == 1 ?
@@ -52,6 +56,7 @@ mc.on("press", function(Event) {
         if ($(".court-background .marker.position").length == 0) {
             $(".court-background").append($marker);
         }
+        console.log("Position top: "+ $marker[0].offsetTop +", left: "+ $marker[0].offsetLeft);
         addFeedback("Positie ingevoerd");
     }
 });
@@ -82,6 +87,10 @@ function addFeedback(string) {
 }
 
 function handleMiss() {
+    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
+    if( $marker.length == 0) {
+        return;
+    }
     if (player) {   
         addFeedback("Speler "+ player +" mist");
         player = null;
@@ -89,10 +98,13 @@ function handleMiss() {
         addFeedback("Score mis");
         isMiss = true;
     }
-    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'missed' );
 }
 
 function handleHit() {
+    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
+    if( $marker.length == 0) {
+        return;
+    }
     if (player) {   
         addFeedback("Speler "+ player +" raakt");
         player = null;
@@ -100,5 +112,4 @@ function handleHit() {
         addFeedback("Score raak");
         isHit = true;
     }
-    var $marker = $(".marker.position").removeClass( 'position' ).addClass( 'hit' );
 }
