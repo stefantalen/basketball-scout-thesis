@@ -5,13 +5,13 @@
         .button {
             @include button(
                 null, // Padding
-                #e78957 // Background
+                #ff9000 // Background
             );
         }
     }
     &.away-team {
         .button {
-            @include button(null, #57180f);
+            @include button(null, #e01c00);
         }
     }
     .button {
