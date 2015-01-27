@@ -56,8 +56,7 @@ mc.on("press", function(Event) {
         if ($(".court-background .marker.position").length == 0) {
             $(".court-background").append($marker);
         }
-        console.log("Position top: "+ $marker[0].offsetTop +", left: "+ $marker[0].offsetLeft);
-        addFeedback("Positie ingevoerd");
+        addFeedback("Positie ("+ $marker[0].offsetTop +","+ $marker[0].offsetLeft +") ingevoerd");
     }
 });
 
