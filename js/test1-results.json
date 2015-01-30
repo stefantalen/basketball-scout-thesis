@@ -2,6 +2,7 @@
     "variant1": [
         {
             "name" : "Steven Terpstra",
+            "color" : "#3bbe52",
             "results" :
             {
                 "test-position": [
@@ -99,6 +100,7 @@
         },
         {
             "name" : "Peter Rengelink",
+            "color" : "#c8309a",
             "results" :
             {
                 "test-position": [
@@ -196,6 +198,7 @@
         },
         {
             "name" : "Nick Martina",
+            "color" : "#e55f1c",
             "results" :
             {
                 "test-position": [
@@ -293,6 +296,7 @@
         },
         {
             "name" : "Ryan Luyckx",
+            "color" : "#969d61",
             "results" :
             {
                 "test-position": [
@@ -399,6 +403,7 @@
     "variant2": [
         {
             "name" : "Robin de Vries",
+            "color" : "#1b7471",
             "results" :
             {
                 "test-position": [
@@ -496,6 +501,7 @@
         },
         {
             "name" : "Norman Gerrits",
+            "color" : "#d8c690",
             "results" :
             {
                 "test-position": [
@@ -593,6 +599,7 @@
         },
         {
             "name" : "Stan van Zomeren",
+            "color" : "#b27be1",
             "results" :
             {
                 "test-position": [
@@ -690,6 +697,7 @@
         },
         {
             "name" : "Uria van der Woerdt",
+            "color" : "#013231",
             "results" :
             {
                 "test-position": [
@@ -789,6 +797,7 @@
     "variant3": [
         {
             "name" : "Ruben Stuut",
+            "color" : "#d38f4c",
             "results" :
             {
                 "test-position": [
@@ -886,6 +895,7 @@
         },
         {
             "name" : "Marcel Schoemaker",
+            "color" : "#48c301",
             "results" :
             {
                 "test-position": [
@@ -983,6 +993,7 @@
         },
         {
             "name" : "Teun Leemans",
+            "color" : "#b10485",
             "results" :
             {
                 "test-position": [
@@ -1095,6 +1106,7 @@
         },
         {
             "name" : "Jorn Bijsterbosch",
+            "color" : "#79cefa",
             "results" :
             {
                 "test-position": [

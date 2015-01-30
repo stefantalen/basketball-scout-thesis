@@ -122,21 +122,21 @@ function showResults(variant, test, scene) {
             if (position.length) {
                 for (shots in position) {
                     var position = data[variant][person].results[test][scene -1][shots];
-                    createMarker(position.top, position.left);
+                    createMarker(position.top, position.left, data[variant][person].color);
                 }
             } else {
-                createMarker(position.top, position.left);
+                createMarker(position.top, position.left, data[variant][person].color);
             }
         }
     });
 }
 
-function createMarker(top, left)
+function createMarker(top, left, color)
 {
     var $marker = $('<div class="marker result"><div class="action-rebound"></div><div class="action-hit"></div><div class="position"></div><div class="action-miss"></div></div>');            
     $marker.show().css({
         top: top,
         left: left
-    });
+    }).children('.position').css('backgroundColor', color);
     $(".court-background").append($marker);
 }
