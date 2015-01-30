@@ -396,10 +396,395 @@
             }
         }
     ],
-    "variant2": {
-        
-    },
-    "variant3": {
-        
-    }
+    "variant2": [
+        {
+            "name" : "Robin de Vries",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 52,
+                        "left": 234
+                    },
+                    {
+                        "top": 275,
+                        "left": 400
+                    },
+                    {
+                        "top": 138,
+                        "left": 349
+                    },
+                    {
+                        "top": 225,
+                        "left": 379
+                    },
+                    {
+                        "top": 265,
+                        "left": 379
+                    },
+                    {
+                        "top": 199,
+                        "left": 147
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 206,
+                        "left": 368,
+                        "hit": false
+                    },
+                    {
+                        "top": 246,
+                        "left": 393,
+                        "hit": true
+                    },
+                    {
+                        "top": 373,
+                        "left": 408,
+                        "hit": true
+                    },
+                    {
+                        "top": 280,
+                        "left": 405,
+                        "hit": true
+                    },
+                    {
+                        "top": 215,
+                        "left": 428,
+                        "hit": true
+                    },
+                    {
+                        "top": 122,
+                        "left": 402,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 152,
+                        "left": 376,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 190,
+                        "left": 424,
+                        "hit": false
+                    },
+                    {
+                        "top": 271,
+                        "left": 388,
+                        "hit": false
+                    },
+                    {
+                        "top": 174,
+                        "left": 390,
+                        "hit": true
+                    },
+                    {
+                        "top": 231,
+                        "left": 390,
+                        "hit": true
+                    },
+                    {
+                        "top": 332,
+                        "left": 183,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Norman Gerrits",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 153,
+                        "left": 228
+                    },
+                    {
+                        "top": 256,
+                        "left": 403
+                    },
+                    {
+                        "top": 307,
+                        "left": 257
+                    },
+                    {
+                        "top": 224,
+                        "left": 383
+                    },
+                    {
+                        "top": 244,
+                        "left": 376
+                    },
+                    {
+                        "top": 220,
+                        "left": 161
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 229,
+                        "left": 252,
+                        "hit": false
+                    },
+                    {
+                        "top": 246,
+                        "left": 404,
+                        "hit": false
+                    },
+                    {
+                        "top": -5,
+                        "left": 432,
+                        "hit": false
+                    },
+                    {
+                        "top": 248,
+                        "left": 402,
+                        "hit": false
+                    },
+                    {
+                        "top": 193,
+                        "left": 403,
+                        "hit": true
+                    },
+                    {
+                        "top": 314,
+                        "left": 269,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 127,
+                        "left": 249,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 195,
+                        "left": 413,
+                        "hit": false
+                    },
+                    {
+                        "top": 245,
+                        "left": 405,
+                        "hit": false
+                    },
+                    {
+                        "top": 204,
+                        "left": 399,
+                        "hit": false
+                    },
+                    {
+                        "top": 240,
+                        "left": 392,
+                        "hit": true
+                    },
+                    {
+                        "top": 323,
+                        "left": 177,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Stan van Zomeren",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 47,
+                        "left": 201
+                    },
+                    {
+                        "top": 275,
+                        "left": 387
+                    },
+                    {
+                        "top": 70,
+                        "left": 253
+                    },
+                    {
+                        "top": 416,
+                        "left": 377
+                    },
+                    {
+                        "top": 246,
+                        "left": 342
+                    },
+                    {
+                        "top": 252,
+                        "left": 141
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 243,
+                        "left": 231,
+                        "hit": false
+                    },
+                    {
+                        "top": 268,
+                        "left": 391,
+                        "hit": false
+                    },
+                    {
+                        "top": 433,
+                        "left": 364,
+                        "hit": true
+                    },
+                    {
+                        "top": 264,
+                        "left": 376,
+                        "hit": false
+                    },
+                    {
+                        "top": 201,
+                        "left": 368,
+                        "hit": false
+                    },
+                    {
+                        "top": 277,
+                        "left": 147,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 98,
+                        "left": 285,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 190,
+                        "left": 386,
+                        "hit": false
+                    },
+                    {
+                        "top": 278,
+                        "left": 332,
+                        "hit": false
+                    },
+                    {
+                        "top": 181,
+                        "left": 362,
+                        "hit": false
+                    },
+                    {
+                        "top": 262,
+                        "left": 335,
+                        "hit": true
+                    },
+                    {
+                        "top": 343,
+                        "left": 163,
+                        "hit": true
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Uria van der Woerdt",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 102,
+                        "left": 176
+                    },
+                    {
+                        "top": 261,
+                        "left": 393
+                    },
+                    {
+                        "top": 121,
+                        "left": 225
+                    },
+                    {
+                        "top": 227,
+                        "left": 378
+                    },
+                    {
+                        "top": 302,
+                        "left": 342
+                    },
+                    {
+                        "top": 208,
+                        "left": 142
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 278,
+                        "left": 238,
+                        "hit": false
+                    },
+                    {
+                        "top": 296,
+                        "left": 368,
+                        "hit": false
+                    },
+                    {
+                        "top": 417,
+                        "left": 375,
+                        "hit": true
+                    },
+                    {
+                        "top": 267,
+                        "left": 377,
+                        "hit": true
+                    },
+                    {
+                        "top": 202,
+                        "left": 369,
+                        "hit": true
+                    },
+                    {
+                        "top": 122,
+                        "left": 376,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 122,
+                        "left": 287,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 190,
+                        "left": 391,
+                        "hit": false
+                    },
+                    {
+                        "top": 253,
+                        "left": 368,
+                        "hit": false
+                    },
+                    {
+                        "top": 206,
+                        "left": 369,
+                        "hit": false
+                    },
+                    {
+                        "top": 245,
+                        "left": 357,
+                        "hit": true
+                    },
+                    {
+                        "top": 344,
+                        "left": 172,
+                        "hit": false
+                    }
+                ]
+            }
+        }
+    ],
+    "variant3": []
 }
