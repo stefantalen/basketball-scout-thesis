@@ -1,0 +1,405 @@
+{
+    "variant1": [
+        {
+            "name" : "Steven Terpstra",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 349,
+                        "left": 244
+                    },
+                    {
+                        "top": 250,
+                        "left": 401
+                    },
+                    {
+                        "top": 342,
+                        "left": 244
+                    },
+                    {
+                        "top": 227,
+                        "left": 377
+                    },
+                    {
+                        "top": 246,
+                        "left": 373
+                    },
+                    {
+                        "top": 188,
+                        "left": 168
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 257,
+                        "left": 164,
+                        "hit": false
+                    },
+                    {
+                        "top": 260,
+                        "left": 372,
+                        "hit": true
+                    },
+                    {
+                        "top": -11,
+                        "left": 3,
+                        "hit": true
+                    },
+                    {
+                        "top": 249,
+                        "left": 378,
+                        "hit": true
+                    },
+                    {
+                        "top": 202,
+                        "left": 371,
+                        "hit": true
+                    },
+                    {
+                        "top": 420,
+                        "left": 13,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 342,
+                        "left": 200,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 242,
+                        "left": 381,
+                        "hit": false
+                    },
+                    {
+                        "top": 225,
+                        "left": 375,
+                        "hit": false
+                    },
+                    {
+                        "top": 231,
+                        "left": 50,
+                        "hit": false
+                    },
+                    {
+                        "top": 236,
+                        "left": 361,
+                        "hit": true
+                    },
+                    {
+                        "top": 390,
+                        "left": 119,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Peter Rengelink",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 421,
+                        "left": 217
+                    },
+                    {
+                        "top": 266,
+                        "left": 387
+                    },
+                    {
+                        "top": 278,
+                        "left": 96
+                    },
+                    {
+                        "top": 213,
+                        "left": 365
+                    },
+                    {
+                        "top": 283,
+                        "left": 356
+                    },
+                    {
+                        "top": 230,
+                        "left": 152
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 243,
+                        "left": 164,
+                        "hit": false
+                    },
+                    {
+                        "top": 260,
+                        "left": 372,
+                        "hit": false
+                    },
+                    {
+                        "top": 17,
+                        "left": 2,
+                        "hit": true
+                    },
+                    {
+                        "top": 235,
+                        "left": 376,
+                        "hit": true
+                    },
+                    {
+                        "top": 202,
+                        "left": 394,
+                        "hit": true
+                    },
+                    {
+                        "top": 196,
+                        "left": 198,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 292,
+                        "left": 107,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 199,
+                        "left": 404,
+                        "hit": false
+                    },
+                    {
+                        "top": 273,
+                        "left": 370,
+                        "hit": false
+                    },
+                    {
+                        "top": 247,
+                        "left": 38,
+                        "hit": false
+                    },
+                    {
+                        "top": 240,
+                        "left": 358,
+                        "hit": true
+                    },
+                    {
+                        "top": 352,
+                        "left": 146,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Nick Martina",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 361,
+                        "left": 287
+                    },
+                    {
+                        "top": 262,
+                        "left": 400
+                    },
+                    {
+                        "top": 295,
+                        "left": 142
+                    },
+                    {
+                        "top": 218,
+                        "left": 369
+                    },
+                    {
+                        "top": 310,
+                        "left": 347
+                    },
+                    {
+                        "top": 283,
+                        "left": 154
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 282,
+                        "left": 98,
+                        "hit": false
+                    },
+                    {
+                        "top": 298,
+                        "left": 397,
+                        "hit": false
+                    },
+                    {
+                        "top": 5,
+                        "left": 0,
+                        "hit": true
+                    },
+                    {
+                        "top": 258,
+                        "left": 336,
+                        "hit": true
+                    },
+                    {
+                        "top": 193,
+                        "left": 395,
+                        "hit": true
+                    },
+                    {
+                        "top": 286,
+                        "left": 192,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 302,
+                        "left": 82,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 242,
+                        "left": 405,
+                        "hit": false
+                    },
+                    {
+                        "top": 264,
+                        "left": 383,
+                        "hit": false
+                    },
+                    {
+                        "top": 260,
+                        "left": 16,
+                        "hit": false
+                    },
+                    {
+                        "top": 238,
+                        "left": 336,
+                        "hit": true
+                    },
+                    {
+                        "top": 311,
+                        "left": 143,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Ryan Luyckx",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 353,
+                        "left": 247
+                    },
+                    {
+                        "top": 266,
+                        "left": 391
+                    },
+                    {
+                        "top": 318,
+                        "left": 152
+                    },
+                    {
+                        "top": 224,
+                        "left": 366
+                    },
+                    {
+                        "top": 290,
+                        "left": 364
+                    },
+                    {
+                        "top": 218,
+                        "left": 152
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 228,
+                        "left": 178,
+                        "hit": false
+                    },
+                    {
+                        "top": 277,
+                        "left": 387,
+                        "hit": false
+                    },
+                    {
+                        "top": 44,
+                        "left": 1,
+                        "hit": true
+                    },
+                    {
+                        "top": 262,
+                        "left": 378,
+                        "hit": true
+                    },
+                    {
+                        "top": 191,
+                        "left": 378,
+                        "hit": true
+                    },
+                    [
+                        {
+                            "top": 224,
+                            "left": 228,
+                            "hit": false
+                        },
+                        {
+                            "top": 391,
+                            "left": 15,
+                            "hit": false
+                        }
+                    ]
+                ],
+                "test-selection": [
+                    {
+                        "top": 302,
+                        "left": 82,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 242,
+                        "left": 405,
+                        "hit": false
+                    },
+                    {
+                        "top": 264,
+                        "left": 383,
+                        "hit": false
+                    },
+                    {
+                        "top": 260,
+                        "left": 16,
+                        "hit": false
+                    },
+                    {
+                        "top": 238,
+                        "left": 336,
+                        "hit": true
+                    },
+                    {
+                        "top": 311,
+                        "left": 143,
+                        "hit": false
+                    }
+                ]
+            }
+        }
+    ],
+    "variant2": {
+        
+    },
+    "variant3": {
+        
+    }
+}

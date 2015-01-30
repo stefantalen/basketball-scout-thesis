@@ -112,3 +112,31 @@ function handleHit() {
         isHit = true;
     }
 }
+
+function showResults(variant, test, scene) {
+    $.getJSON( "../../../../js/test1-results.json", function( data ) {
+        console.log(data);
+        for(person in data[variant]) {
+            console.log(data[variant][person].name);
+            var position = data[variant][person].results[test][scene -1];
+            if (position.length) {
+                for (shots in position) {
+                    var position = data[variant][person].results[test][scene -1][shots];
+                    createMarker(position.top, position.left);
+                }
+            } else {
+                createMarker(position.top, position.left);
+            }
+        }
+    });
+}
+
+function createMarker(top, left)
+{
+    var $marker = $('<div class="marker"><div class="action-rebound"></div><div class="action-hit"></div><div class="position" style="border: 1px solid black"></div><div class="action-miss"></div></div>');            
+    $marker.show().css({
+        top: top,
+        left: left
+    });
+    $(".court-background").append($marker);
+}
