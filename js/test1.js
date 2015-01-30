@@ -133,7 +133,7 @@ function showResults(variant, test, scene) {
 
 function createMarker(top, left)
 {
-    var $marker = $('<div class="marker"><div class="action-rebound"></div><div class="action-hit"></div><div class="position" style="border: 1px solid black"></div><div class="action-miss"></div></div>');            
+    var $marker = $('<div class="marker result"><div class="action-rebound"></div><div class="action-hit"></div><div class="position"></div><div class="action-miss"></div></div>');            
     $marker.show().css({
         top: top,
         left: left

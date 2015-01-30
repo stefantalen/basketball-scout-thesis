@@ -1,4 +1,5 @@
-.test-1-position {
+.test-1-position,
+.marker.result {
     .action-miss,
     .action-hit,
     .action-rebound {
@@ -82,5 +83,10 @@
         height: 64px;
         border-radius: 50%;
         background: teal;
+    }
+    &.result {
+        .position {
+            border: 1px solid black;
+        }
     }
 }

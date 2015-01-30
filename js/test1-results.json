@@ -362,34 +362,34 @@
                 ],
                 "test-selection": [
                     {
-                        "top": 302,
-                        "left": 82,
+                        "top": 312,
+                        "left": 109,
                         "hit": false
                         
                     },
                     {
-                        "top": 242,
-                        "left": 405,
+                        "top": 181,
+                        "left": 392,
                         "hit": false
                     },
                     {
-                        "top": 264,
-                        "left": 383,
+                        "top": 278,
+                        "left": 338,
                         "hit": false
                     },
                     {
-                        "top": 260,
-                        "left": 16,
+                        "top": 290,
+                        "left": 70,
                         "hit": false
                     },
                     {
-                        "top": 238,
-                        "left": 336,
+                        "top": 277,
+                        "left": 342,
                         "hit": true
                     },
                     {
-                        "top": 311,
-                        "left": 143,
+                        "top": 368,
+                        "left": 184,
                         "hit": false
                     }
                 ]
