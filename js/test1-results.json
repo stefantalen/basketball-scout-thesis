@@ -786,5 +786,409 @@
             }
         }
     ],
-    "variant3": []
+    "variant3": [
+        {
+            "name" : "Ruben Stuut",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 222,
+                        "left": 133
+                    },
+                    {
+                        "top": 25,
+                        "left": 262
+                    },
+                    {
+                        "top": 136,
+                        "left": 152
+                    },
+                    {
+                        "top": 61,
+                        "left": 227
+                    },
+                    {
+                        "top": 91,
+                        "left": 286
+                    },
+                    {
+                        "top": 256,
+                        "left": 235
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 170,
+                        "left": 240,
+                        "hit": false
+                    },
+                    {
+                        "top": 58,
+                        "left": 271,
+                        "hit": true
+                    },
+                    {
+                        "top": 28,
+                        "left": 433,
+                        "hit": true
+                    },
+                    {
+                        "top": 42,
+                        "left": 242,
+                        "hit": true
+                    },
+                    {
+                        "top": 51,
+                        "left": 202,
+                        "hit": true
+                    },
+                    {
+                        "top": 235,
+                        "left": 252,
+                        "hit": true
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 151,
+                        "left": 148,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 25,
+                        "left": 211,
+                        "hit": false
+                    },
+                    {
+                        "top": 81,
+                        "left": 273,
+                        "hit": false
+                    },
+                    {
+                        "top": 38,
+                        "left": 223,
+                        "hit": false
+                    },
+                    {
+                        "top": 75,
+                        "left": 249,
+                        "hit": true
+                    },
+                    {
+                        "top": 240,
+                        "left": 348,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Marcel Schoemaker",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 185,
+                        "left": 169
+                    },
+                    {
+                        "top": 66,
+                        "left": 337
+                    },
+                    {
+                        "top": 234,
+                        "left": 107
+                    },
+                    {
+                        "top": 61,
+                        "left": 220
+                    },
+                    {
+                        "top": 84,
+                        "left": 271
+                    },
+                    {
+                        "top": 256,
+                        "left": 308
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 125,
+                        "left": 261,
+                        "hit": false
+                    },
+                    {
+                        "top": 50,
+                        "left": 292,
+                        "hit": false
+                    },
+                    {
+                        "top": 28,
+                        "left": 472,
+                        "hit": true
+                    },
+                    {
+                        "top": 46,
+                        "left": 271,
+                        "hit": true
+                    },
+                    {
+                        "top": 43,
+                        "left": 197,
+                        "hit": true
+                    },
+                    {
+                        "top": 18,
+                        "left": 127,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 128,
+                        "left": 171,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 5,
+                        "left": 193,
+                        "hit": false
+                    },
+                    {
+                        "top": 54,
+                        "left": 203,
+                        "hit": false
+                    },
+                    {
+                        "top": 52,
+                        "left": 198,
+                        "hit": false
+                    },
+                    {
+                        "top": 79,
+                        "left": 239,
+                        "hit": true
+                    },
+                    {
+                        "top": 254,
+                        "left": 347,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Teun Leemans",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 248,
+                        "left": 135
+                    },
+                    {
+                        "top": 45,
+                        "left": 260
+                    },
+                    {
+                        "top": 154,
+                        "left": 150
+                    },
+                    {
+                        "top": 32,
+                        "left": 200
+                    },
+                    {
+                        "top": 67,
+                        "left": 257
+                    },
+                    {
+                        "top": 269,
+                        "left": 235
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 142,
+                        "left": 237,
+                        "hit": false
+                    },
+                    {
+                        "top": 49,
+                        "left": 259,
+                        "hit": false
+                    },
+                    {
+                        "top": 42,
+                        "left": 431,
+                        "hit": true
+                    },
+                    [
+                        {
+                            "top": 40,
+                            "left": 266,
+                            "hit": false
+                        },
+                        {
+                            "top": 64,
+                            "left": 222,
+                            "hit": true
+                        }
+                        
+                    ],
+                    {
+                        "top": 39,
+                        "left": 202,
+                        "hit": true
+                    },
+                    [
+                        {
+                            "top": 220,
+                            "left": 244,
+                            "hit": false
+                        },
+                        {
+                            "top": 42,
+                            "left": 65,
+                            "hit": false
+                        }
+                    ]
+                ],
+                "test-selection": [
+                    {
+                        "top": 108,
+                        "left": 178,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 23,
+                        "left": 207,
+                        "hit": false
+                    },
+                    {
+                        "top": 72,
+                        "left": 227,
+                        "hit": false
+                    },
+                    {
+                        "top": 65,
+                        "left": 239,
+                        "hit": false
+                    },
+                    {
+                        "top": 74,
+                        "left": 236,
+                        "hit": true
+                    },
+                    {
+                        "top": 263,
+                        "left": 315,
+                        "hit": false
+                    }
+                ]
+            }
+        },
+        {
+            "name" : "Jorn Bijsterbosch",
+            "results" :
+            {
+                "test-position": [
+                    {
+                        "top": 246,
+                        "left": 122
+                    },
+                    {
+                        "top": 33,
+                        "left": 304
+                    },
+                    {
+                        "top": 174,
+                        "left": 127
+                    },
+                    {
+                        "top": 65,
+                        "left": 231
+                    },
+                    {
+                        "top": 91,
+                        "left": 321
+                    },
+                    {
+                        "top": 268,
+                        "left": 229
+                    }
+                ],
+                "test-interaction": [
+                    {
+                        "top": 188,
+                        "left": 275,
+                        "hit": false
+                    },
+                    {
+                        "top": 34,
+                        "left": 297,
+                        "hit": false
+                    },
+                    {
+                        "top": 1,
+                        "left": 444,
+                        "hit": true
+                    },
+                    {
+                        "top": 62,
+                        "left": 252,
+                        "hit": true
+                    },
+                    {
+                        "top": 50,
+                        "left": 200,
+                        "hit": true
+                    },
+                    {
+                        "top": 18,
+                        "left": 84,
+                        "hit": false
+                    }
+                ],
+                "test-selection": [
+                    {
+                        "top": 152,
+                        "left": 127,
+                        "hit": false
+                        
+                    },
+                    {
+                        "top": 41,
+                        "left": 185,
+                        "hit": false
+                    },
+                    {
+                        "top": 71,
+                        "left": 165,
+                        "hit": false
+                    },
+                    {
+                        "top": 27,
+                        "left": 193,
+                        "hit": false
+                    },
+                    {
+                        "top": 79,
+                        "left": 212,
+                        "hit": true
+                    },
+                    {
+                        "top": 272,
+                        "left": 290,
+                        "hit": false
+                    }
+                ]
+            }
+        }
+    ]
 }
