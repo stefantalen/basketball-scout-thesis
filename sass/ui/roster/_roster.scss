@@ -17,6 +17,7 @@
     .button {
         margin: 0px;
         &.disabled {
+            $button-disabled-opacity: 0.2;
             @include button-style(null, null, true, false);
         }
     }

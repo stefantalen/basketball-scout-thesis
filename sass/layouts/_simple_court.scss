@@ -25,3 +25,11 @@ $courtImageHeight: 525;
     margin: 0px;
     height: $courtImageHeight * 1px;
 }
+
+.test-2 {
+    .alert-box {
+        .button {
+            margin-top: -8px;
+        }
+    }
+}
