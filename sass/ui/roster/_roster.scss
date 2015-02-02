@@ -2,7 +2,7 @@
 
 .roster {
     &.home-team {
-        .button {
+        .button:not(.default) {
             @include button(
                 null, // Padding
                 #ff9000 // Background
@@ -10,7 +10,7 @@
         }
     }
     &.away-team {
-        .button {
+        .button:not(.default) {
             @include button(null, #e01c00);
         }
     }

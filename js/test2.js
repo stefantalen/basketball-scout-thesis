@@ -63,7 +63,8 @@ mc.on("press", function(Event) {
     } else if (
         $("body").hasClass( 'test-1-interaction' ) ||
         (isMiss == false &&
-        isHit == false)
+        isHit == false &&
+        isRebound == false)
     ) {
         // If there is an position marker get it, otherwise create a new one
         var $marker =
